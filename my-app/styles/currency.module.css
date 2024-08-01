@@ -1,0 +1,68 @@
+ .main {
+     --terquesa: #1b998b;
+     --mustard: #f2c618;
+     --salad-light-green: #afe477;
+     --mohito: #ebf6c9;
+ }
+
+ .container {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ }
+
+ .field {
+     display: flex;
+     flex-direction: column;
+     margin: 10px;
+ }
+
+ .input {
+     font-size: 1.5em;
+     text-align: center;
+ }
+
+ .usd-label,
+ .usd-input {
+     color: rgb(103, 174, 91);
+ }
+
+ .eur-label,
+ .eur-input {
+     color: rgb(65, 79, 176);
+ }
+
+ @media (max-width: 600px) {
+     .container {
+         flex-direction: column;
+     }
+ }
+
+ .buttn {
+     margin-top: 1rem;
+     border: solid 2px #ebf6c9;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+
+ .buttn:active {
+     background-color: #e0e8d0;
+     border-color: #d0d8c0;
+     box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2);
+ }
+
+ .inputsBlock {
+     display: flex;
+     flex-direction: column;
+     margin-top: 2rem;
+ }
+
+ .result {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     margin-top: 2rem;
+     height: 3rem;
+     font-size: larger;
+     /* animation: tracking-in-contract 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both; */
+ }

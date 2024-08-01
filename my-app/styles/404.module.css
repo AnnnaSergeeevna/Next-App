@@ -1,0 +1,15 @@
+/* 
+  --terquesa: #1b998b;
+  --mustard: #f2c618;
+  --salad-light-green: #afe477;
+  --mohito: #ebf6c9; */
+
+
+.errorMessageBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: xx-large;
+  background: #f2c618;
+  color: white;
+}
